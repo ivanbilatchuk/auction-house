@@ -2,7 +2,6 @@ package com.bilatchuk.auctionhouse.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
-// Токени кольорів із дизайну Stitch (темна тема "AuctionHouse": синій графіт + золото)
 val Primary = Color(0xFFF2CA50)
 val OnPrimary = Color(0xFF3C2F00)
 val PrimaryContainer = Color(0xFFD4AF37)

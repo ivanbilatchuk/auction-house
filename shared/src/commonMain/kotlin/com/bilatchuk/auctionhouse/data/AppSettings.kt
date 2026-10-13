@@ -6,13 +6,6 @@ import com.russhwolf.settings.Settings
 class AppSettings(private val settings: Settings = Settings()) {
     private val log = Logger.withTag("AppSettings")
 
-    var onboardingSeen: Boolean
-        get() = settings.getBoolean(KEY_ONBOARDING_SEEN, false)
-        set(value) {
-            log.i { "onboardingSeen = $value" }
-            settings.putBoolean(KEY_ONBOARDING_SEEN, value)
-        }
-
     var language: String?
         get() = settings.getStringOrNull(KEY_LANGUAGE)
         set(value) {
@@ -21,7 +14,6 @@ class AppSettings(private val settings: Settings = Settings()) {
         }
 
     private companion object {
-        const val KEY_ONBOARDING_SEEN = "onboarding_seen"
         const val KEY_LANGUAGE = "language"
     }
 }

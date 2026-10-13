@@ -82,7 +82,6 @@ fun OnboardingScreen(onFinish: () -> Unit) {
                 verticalArrangement = Arrangement.Center,
                 horizontalAlignment = Alignment.CenterHorizontally,
             ) {
-                // Золоте число як «ілюстрація» слайда — без залежності від емодзі/іконок
                 Text(
                     text = "0${index + 1}",
                     style = MaterialTheme.typography.displaySmall,

@@ -1,3 +1,18 @@
+# AuctionHouse — аукціон колекційних предметів
+
+Kotlin Multiplatform (Android, iOS, Desktop) + Compose Multiplatform. Лабораторна робота №4.
+
+## Що реалізовано
+- Кастомна тема: кольори та форми (темна палітра «графіт + золото»), шрифти Playfair Display та Inter — `shared/.../ui/theme`
+- Логування — **Kermit**, налаштування користувача — **multiplatform-settings** (`data/AppSettings.kt`)
+- Онбординг на `HorizontalPager` (4 слайди) — `ui/onboarding/OnboardingScreen.kt`, показується один раз
+- Локалізація українською та англійською — `composeResources/values` і `values-uk`, перемикач мови на головному екрані (вибір зберігається)
+- Головний екран із перемикачем мови — `ui/main/MainScreen.kt`
+
+Шрифти: Google Fonts (SIL Open Font License).
+
+---
+
 This is a Kotlin Multiplatform project targeting Android, iOS, Desktop (JVM).
 
 * [/iosApp](./iosApp/iosApp) contains an iOS application. Even if you’re sharing your UI with Compose Multiplatform,
