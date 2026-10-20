@@ -8,6 +8,8 @@ Kotlin Multiplatform (Android, iOS, Desktop) + Compose Multiplatform. Лабор
 - Онбординг на `HorizontalPager` (4 слайди) — `ui/onboarding/OnboardingScreen.kt`, показується один раз
 - Локалізація українською та англійською — `composeResources/values` і `values-uk`, перемикач мови на головному екрані (вибір зберігається)
 - Головний екран із перемикачем мови — `ui/main/MainScreen.kt`
+- Дизайн «Нуар-галерея»: головна, каталог, лот, кабінет (перемикач мови — у кабінеті) та адаптивний макет (нижня навігація на телефоні, верхня на десктопі) — `ui/screens`, `ui/main`
+- Шпалери із золотою ґраткою, золоті багетні рамки з паспарту та фонові фото-плейсхолдери — `ui/components/Decor.kt` (`wallpaper`, `GoldFrame`, `BackdropPhoto`). Реальні знімки підключаються через параметр `painter`
 
 Шрифти: Google Fonts (SIL Open Font License).
 
